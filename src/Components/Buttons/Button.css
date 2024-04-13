@@ -1,0 +1,22 @@
+
+button{
+    background: rgb(0,22,52);
+    background: linear-gradient(90deg, rgba(0,22,52,1) 0%, rgb(0, 61, 166) 46%, rgba(60,110,255,1) 96%);
+    color: white;
+    font-weight: 700;
+    border: none;
+    width: fit-content;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.trans{
+    background: transparent;
+    border: none;
+    border: solid white 1px;
+}
