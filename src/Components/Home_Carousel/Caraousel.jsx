@@ -61,7 +61,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 import "./Carousel.css"
 import Button from "../Buttons/Button";
@@ -72,10 +72,15 @@ export default function Carousel(){
     return(<Swiper
       slidesPerView={1}
       spaceBetween={30}
+      centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
       pagination={{
         clickable: true,
       }}
-      modules={[Pagination]}
+      modules={[ Autoplay,Pagination]}
       className="mySwiper"
     >
 
