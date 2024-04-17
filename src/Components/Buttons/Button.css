@@ -12,6 +12,9 @@ button{
     border-radius: 2rem;
     text-align: center;
     box-sizing: border-box;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 

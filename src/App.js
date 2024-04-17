@@ -5,9 +5,13 @@ import NavBar from './Components/NavBar/NavBar';
 function App() {
   return (
     <div className='top_container'>
-     <NavBar/>
-    <Home/>
+     {/* image for the background */}
+      <img src='./site_Background.png' alt="background" className='main_background' />
+      <NavBar />
+      <Home />
     </div>
+
+
   );
 }
 

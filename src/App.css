@@ -2,3 +2,9 @@
     width:100vw;
     position: relative;
 }
+
+.main_background{
+    position: fixed;
+    z-index: 0;
+}
+

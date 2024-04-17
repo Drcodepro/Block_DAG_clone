@@ -9,14 +9,17 @@ position: relative;
 width: 100vw;
 height: auto;
 margin-top: 9rem;
+
 }
 
 .inside_mobile_container{
     position: absolute;
     right: 42.4%;
-    background: linear-gradient(65.5deg, rgb(23, 123, 205) -15.1%, rgb(0, 4, 79) 71.5%);    width: 12.5rem;
+    background: linear-gradient(65.5deg,  rgb(0, 6, 33) -5.1%, rgb(1, 8, 141)101.5%);    width: 12.5rem;
     height: 27.8rem;
     border-radius: 2rem; 
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .mobile_navbar{
@@ -38,6 +41,8 @@ margin-top: 9rem;
     justify-content: center;
     gap: 0.5rem;
     padding-right: 0.2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .mobile_navbar img{

@@ -23,7 +23,7 @@ function moibleHomeShow(){
           </div>
         </div>
         
-        {mobileHome?<MobileHome moibleHomeShow={moibleHomeShow}/>:<ChargePage/>}
+        {mobileHome?<MobileHome moibleHomeShow={moibleHomeShow}/>:<ChargePage mobileHomeShow={moibleHomeShow}/>}
       </div>
     </div>
   );

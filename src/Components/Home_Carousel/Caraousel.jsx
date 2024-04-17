@@ -71,10 +71,10 @@ export default function Carousel(){
     
     return(<Swiper
       slidesPerView={1}
-      spaceBetween={30}
+      spaceBetween={50}
       centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 1500,
           disableOnInteraction: false,
         }}
       pagination={{
