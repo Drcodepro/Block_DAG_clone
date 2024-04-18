@@ -4,6 +4,10 @@
     padding-bottom: 0;
     margin-bottom: 0;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
 }
 .charge_page_container nav{
     display: flex;
@@ -38,8 +42,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-}
+ }
 .chargePage_body select{
  background-color: rgba(0, 0, 0, 0.305);
  color: white;
@@ -305,4 +308,14 @@ height: fit-content;
 
 .toggledNav_container_show{
     display: none;
+    }
+
+    @media (max-width:450px) {
+        .charge_page_container{
+        
+            height: 90%;
+        }
+        .chargePage_body{
+            gap: 2rem;
+         }
     }

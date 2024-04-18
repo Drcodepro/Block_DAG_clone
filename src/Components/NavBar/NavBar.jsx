@@ -17,7 +17,8 @@ export default function NavBar() {
         <li>CALCULATOR</li>
         <li>MECHANICS</li>
       </ul>
-      <Button value="Buy"/>     
+      <a href="https://purchase1.blockdag.network/"><Button value="Buy"/></a>
+      
     </div>
   );
 }

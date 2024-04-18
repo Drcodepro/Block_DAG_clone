@@ -67,7 +67,8 @@ setisnavtoggle(!isnavtoggle)
           <span className="shadow_help">.</span>
         </div>
 
-        <button className="charge_Button">Fully Charged</button>
+        <button className="charge_Button"> <a href="https://purchase1.blockdag.network/">Fully Charged</a>
+        </button>
         <p style={{ padding: "0.5rem" }}>
           Once the clock hits 24, gear up for another mining run!
         </p>
@@ -77,7 +78,6 @@ setisnavtoggle(!isnavtoggle)
 
         <div className="left_box"><i class="fa-solid fa-users fa-sm"></i>
         <p>Invite</p></div>
-
         <button className="mid_box">
         <img
             src="./chargePage_image/thunder.png"

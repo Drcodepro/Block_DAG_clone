@@ -20,16 +20,16 @@
 }
 
 
-
 .ShareSecion_container .shareImage_container{
     position: absolute;
     top: 5%;
 }
 
+
 .ShareSecion_container .shareOption_Container{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1rem;
     margin-top: 0;
     padding-top: 0;
 }
@@ -38,3 +38,27 @@
     height: auto;
 }
 
+@media (max-width: 450px){
+
+    .shareMobileImg{
+    width: 100vw;
+    }
+    .ShareSecion_container .shareImage_container{
+        position:static;
+    }
+    .ShareSecion_container .shareOption_Container img{
+        width:20px;
+        height: auto;
+    }
+
+    .ShareSecion_container .ShareSection_heading{
+        font-size: 1.5rem;
+        margin-bottom:0.4rem;
+        font-weight: 770;
+    }
+    .ShareSecion_container .another_h1{
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: 500;
+    }
+    }

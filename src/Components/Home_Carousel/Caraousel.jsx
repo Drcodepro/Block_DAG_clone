@@ -87,7 +87,7 @@ export default function Carousel(){
 
       <SwiperSlide className="first_slide">
         <img src="./carousel_images/image1.png" alt="first slide"  className="firstimg" />
-         <Button  value="Watch KEYNOTE"/>
+         <a href="https://blockdag.network/keynote"><Button  value="Watch KEYNOTE"/></a>
       </SwiperSlide>
 
        <SwiperSlide className="video_Slide">

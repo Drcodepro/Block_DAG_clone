@@ -1,6 +1,6 @@
 .nav_Container{
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 5rem;
     justify-content: space-between;
     background-color:  rgba(27, 27, 28, 0.945);
@@ -31,10 +31,22 @@
     gap: 1.5rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
     .nav_Container .nav_List {
       display: none;
     }
+
+    .nav_Container{
+        height: 4rem;
+        justify-content: space-between;
+        background-color:  rgba(27, 27, 28, 0.945);
+        align-items: center;
+        padding:1rem ;
+        box-sizing: border-box;
+        position:fixed;
+        z-index: 99;
+    }
+    
   }
 
 
