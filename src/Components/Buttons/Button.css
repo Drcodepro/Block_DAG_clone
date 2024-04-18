@@ -14,6 +14,8 @@ button{
     box-sizing: border-box;
     &:hover{
         cursor: pointer;
+        background: transparent;
+        border: solid white 1px;
     }
 }
 
@@ -22,4 +24,8 @@ button{
     background: transparent;
     border: none;
     border: solid white 1px;
+    &:hover{
+        background: rgb(0,22,52);
+        background: linear-gradient(90deg, rgba(0,22,52,1) 0%, rgb(0, 61, 166) 46%, rgba(60,110,255,1) 96%);    
+    }
 }
