@@ -8,6 +8,184 @@
     height: fit-content;
 }
 
+.shareMobileImg{
+width:100%
+}
+
+.ShareBox1{
+position: absolute;
+top: 63.8%;
+left: 16%;
+transform: translate(-50%,-50%);
+animation-name: ShareBox1_anim;
+animation-duration: 2.5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+.ShareBox2{
+    position: absolute;
+    top: 63.8%;
+    left: 26%;
+    transform: translate(-50%,-50%);
+    animation-name: ShareBox2_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.ShareCircle{
+    position: absolute;
+    width: 13rem;
+    top: 63.8%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    animation-name:ShareCircle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ShareCircle_anim {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes ShareBox1_anim {
+    0%{
+        left: 16%;
+        opacity: 1;
+    }
+    100%{
+        left: 0%;
+        opacity: 0;
+    }
+}
+
+@keyframes ShareBox2_anim {
+    0%{
+        left: 26%;
+        opacity: 1;
+    }
+    100%{
+        left: 5%;
+        opacity: 0;
+    }
+}
+
+
+
+.tooDarkShareTrangle{
+    position: absolute;
+    width: 5rem;
+    top: 63.8%;
+    left: 51%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    animation-name:tooDarkShareTrangle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes tooDarkShareTrangle_anim {
+    0%{
+        left: 51%;
+        opacity: 1;
+    }
+    100%{
+        left: 54%;
+        opacity: 0;
+    }
+}
+.DarkShareTrangle{
+    position: absolute;
+    width: 5rem;
+    top: 63.8%;
+    left: 51%;
+    z-index:1;
+    transform: translate(-50%,-50%);
+    animation-name:DarkShareTrangle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes DarkShareTrangle_anim {
+    0%{
+        left: 51%;
+        opacity: 1;
+    }
+    100%{
+        left: 60%;
+        opacity: 0;
+    }
+}
+
+.lightShareTrangle{
+    position: absolute;
+    width: 5rem;
+    top: 63.8%;
+    left: 51%;
+    z-index: 0;
+    transform: translate(-50%,-50%);
+    animation-name:lightShareTrangle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes lightShareTrangle_anim {
+    0%{
+        left: 51%;
+        opacity: 1;
+    }
+    100%{
+        left: 64%;
+        opacity: 0;
+    }
+}
+
+
+.tooLightShareTrangle{
+    position: absolute;
+    width: 4rem;
+    top: 63.8%;
+    left: 51%;
+    z-index: 0;
+    transform: translate(-50%,-50%);
+    animation-name:tooLightShareTrangle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes tooLightShareTrangle_anim {
+    0%{
+        left: 51%;
+        opacity: 1;
+    }
+    100%{
+        left: 68%;
+        opacity: 0;
+    }
+}
+
+@media (max-width:450px) {
+    .trangle{
+        width: 1.7rem;
+        top: 67%;
+    }
+}
+
+
+
 .ShareSecion_container .ShareSection_heading{
     font-size: 5rem;
     margin-bottom:0.4rem;
@@ -18,13 +196,6 @@
     font-size: 1.5rem;
     text-align: center;
 }
-
-
-.ShareSecion_container .shareImage_container{
-    position: absolute;
-    top: 5%;
-}
-
 
 .ShareSecion_container .shareOption_Container{
     display: flex;
@@ -43,9 +214,6 @@
     .shareMobileImg{
     width: 100vw;
     }
-    .ShareSecion_container .shareImage_container{
-        position:static;
-    }
     .ShareSecion_container .shareOption_Container img{
         width:20px;
         height: auto;
@@ -61,4 +229,32 @@
         text-align: center;
         font-weight: 500;
     }
+
+    .ShareBox1{
+        
+        position: absolute;
+    top: 67%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    width: 3.4rem;
+        }
+
+        .ShareBox2{
+        
+            position: absolute;
+        top: 67%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        width: 3.4rem;
+            }
+
+            .ShareCircle{
+                width: 4rem;
+                top: 67%;
+                left: 30%;
+            }
     }
+
+
+
+    

@@ -54,7 +54,7 @@ margin-top: 9rem;
 @media (max-width: 450px) {
     .mobile_Container .mobile_frame{
         content: url('../../../public/SmallMobile.svg');
-        width: 70vw;
+        width: 17rem;
         height: auto;
         margin-top: 4rem;
         }  
