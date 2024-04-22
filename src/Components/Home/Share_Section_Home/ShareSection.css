@@ -14,8 +14,9 @@ width:100%
 
 .ShareBox1{
 position: absolute;
-top: 63.8%;
-left: 16%;
+width: 7.1rem;
+top: 66.8%;
+left: 23%;
 transform: translate(-50%,-50%);
 animation-name: ShareBox1_anim;
 animation-duration: 2.5s;
@@ -25,8 +26,9 @@ animation-direction: alternate;
 }
 .ShareBox2{
     position: absolute;
-    top: 63.8%;
-    left: 26%;
+    width: 7.1rem;
+    top: 66.8%;
+    left: 30%;
     transform: translate(-50%,-50%);
     animation-name: ShareBox2_anim;
     animation-duration: 2.5s;
@@ -37,8 +39,8 @@ animation-direction: alternate;
 
 .ShareCircle{
     position: absolute;
-    width: 13rem;
-    top: 63.8%;
+    width: 11rem;
+    top: 66.8%;
     left: 30%;
     transform: translate(-50%,-50%);
     animation-name:ShareCircle_anim;
@@ -59,7 +61,7 @@ animation-direction: alternate;
 
 @keyframes ShareBox1_anim {
     0%{
-        left: 16%;
+        left: 23%;
         opacity: 1;
     }
     100%{
@@ -70,11 +72,11 @@ animation-direction: alternate;
 
 @keyframes ShareBox2_anim {
     0%{
-        left: 26%;
+        left: 30%;
         opacity: 1;
     }
     100%{
-        left: 5%;
+        left: 15%;
         opacity: 0;
     }
 }
@@ -83,8 +85,8 @@ animation-direction: alternate;
 
 .tooDarkShareTrangle{
     position: absolute;
-    width: 5rem;
-    top: 63.8%;
+    width: 4rem;
+    top: 66.8%;
     left: 51%;
     z-index: 2;
     transform: translate(-50%,-50%);
@@ -106,8 +108,8 @@ animation-direction: alternate;
 }
 .DarkShareTrangle{
     position: absolute;
-    width: 5rem;
-    top: 63.8%;
+    width: 4rem;
+    top: 66.8%;
     left: 51%;
     z-index:1;
     transform: translate(-50%,-50%);
@@ -130,8 +132,8 @@ animation-direction: alternate;
 
 .lightShareTrangle{
     position: absolute;
-    width: 5rem;
-    top: 63.8%;
+    width: 4rem;
+    top: 66.8%;
     left: 51%;
     z-index: 0;
     transform: translate(-50%,-50%);
@@ -155,8 +157,8 @@ animation-direction: alternate;
 
 .tooLightShareTrangle{
     position: absolute;
-    width: 4rem;
-    top: 63.8%;
+    width: 3.5rem;
+    top: 66.8%;
     left: 51%;
     z-index: 0;
     transform: translate(-50%,-50%);
