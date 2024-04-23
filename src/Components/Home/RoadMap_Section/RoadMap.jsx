@@ -5,11 +5,16 @@ export default function RoadMap() {
   const [progressBarHeight, setProgressBarHeight] = useState("0%");
   const numberItems = useRef([]);
   const progressBarRef = useRef(null);
+  const [current_number,setcurrent_number] = useState(0);
+  
 
   useEffect(() => {
     const handleIntersect = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
+          setTimeout(()=>{setcurrent_number(entry.target)}
+          ,1000)
+
           // Find the intersecting item number index
           const index = numberItems.current.indexOf(entry.target);
           const height = (index ) * (100 / numberItems.current.length + 5);
@@ -49,7 +54,7 @@ export default function RoadMap() {
 
         <div className="RoadMap_item_container">
           <div className="first_item items">
-            <div className="item_number"  ref={(el) => (numberItems.current[0] = el)}>01</div>
+            <div className={current_number === numberItems.current[0] ? 'item_number_colorChange  item_number' : 'item_number'}  ref={(el) => (numberItems.current[0] = el) }>01</div>
             <div className="item_content">
               <h2>1. Launch Phase: Crypto Presale and Foundation Setting</h2>
               <ul>
@@ -66,7 +71,7 @@ export default function RoadMap() {
           </div>
 
           <div className="second_item items">
-            <div className="item_number"  ref={(el) => (numberItems.current[1] = el)}>02</div>
+            <div className={current_number === numberItems.current[1] ? 'item_number_colorChange  item_number' : 'item_number'}  ref={(el) => (numberItems.current[1] = el)}>02</div>
             <div className="item_content">
               <h2>2. Launch Phase: Crypto Presale and Foundation Setting</h2>
               <ul>
@@ -83,7 +88,7 @@ export default function RoadMap() {
           </div>
 
           <div className="third_item items">
-            <div className="item_number"  ref={(el) => (numberItems.current[2] = el)}>03</div>
+            <div className={current_number === numberItems.current[2] ? 'item_number_colorChange  item_number' : 'item_number'}  ref={(el) => (numberItems.current[2] = el)}>03</div>
             <div className="item_content">
               <h2>3. Launch Phase: Crypto Presale and Foundation Setting</h2>
               <ul>
@@ -100,7 +105,7 @@ export default function RoadMap() {
           </div>
 
           <div className="forth_item items">
-            <div className="item_number"  ref={(el) => (numberItems.current[3] = el)}>04</div>
+            <div className={current_number === numberItems.current[3] ? 'item_number_colorChange  item_number' : 'item_number'}  ref={(el) => (numberItems.current[3] = el)}>04</div>
             <div className="item_content">
               <h2>4. Launch Phase: Crypto Presale and Foundation Setting</h2>
               <ul>
@@ -117,7 +122,7 @@ export default function RoadMap() {
           </div>
 
           <div className="third_item items">
-            <div className="item_number"  ref={(el) => (numberItems.current[4] = el)}>05</div>
+            <div className={current_number === numberItems.current[4] ? 'item_number_colorChange  item_number' : 'item_number'}  ref={(el) => (numberItems.current[4] = el)}>05</div>
             <div className="item_content">
               <h2>5. Launch Phase: Crypto Presale and Foundation Setting</h2>
               <ul>

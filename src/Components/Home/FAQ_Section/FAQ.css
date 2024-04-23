@@ -1,0 +1,91 @@
+
+.FAQS_Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+}
+
+.FAQS_Section h1{
+    font-size: 4rem;
+    margin-bottom:0.5rem;
+    font-weight: 770;
+    margin-bottom: 0;
+}
+
+.FAQS_Section h2{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.Donation_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    width: 58vw;
+    background-color: rgba(0, 72, 255, 0.633);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 20px 120px 1px rgba(0, 72, 255, 0.633);
+    margin-top: 3rem;
+}
+
+.Donation_box p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(201, 201, 201);
+    margin-bottom: 1rem;
+}
+
+.signUp_section{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 2rem;
+}
+
+.signUp_section .signUp_button{
+
+    margin: 1rem;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.2rem;
+    margin-top: 2rem;
+    background: rgb(0,59,130);
+    background: radial-gradient(circle, rgba(0,59,130,1) 1%, rgba(10,69,137,1) 28%, rgba(14,73,140,1) 46%, rgba(158,212,242,1) 100%);
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 900;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media (max-width: 450px){
+    .FAQS_Section h1{
+        font-size: 1.5rem;
+        margin-bottom:0.5rem;
+        font-weight: 770;
+    }
+
+    .FAQS_Section h2{
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: 500;
+        width: 70%;
+    }
+    .Donation_box p{
+        font-size: 0.6rem;
+        font-weight: 700;
+        color: rgb(201, 201, 201);
+    }
+
+
+}

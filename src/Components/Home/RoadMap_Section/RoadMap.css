@@ -3,7 +3,6 @@
     width: 100vw; 
     padding: 0;
     position: relative;
-    margin-bottom: 5rem;
 }
 
 .RoadMap_Section .RoadMap_heading{
@@ -20,7 +19,7 @@
 
 
 .RoadMap_Section .main_content_container{
-    width: 100%;
+    width: 100vw;
     position:relative;
     margin-top: 3rem;
 }
@@ -49,6 +48,7 @@ justify-content: center;
     top: 100%;
     color: rgb(0, 60, 255);
     z-index: 1;
+    box-shadow: 0 0 40px 5px blanchedalmond;
 }
 
 .RoadMap_Section .RoadMap_item_container .items{
@@ -76,13 +76,17 @@ text-align: start;
     z-index: 1;
 }
 
-.RoadMap_Section .RoadMap_item_container .items .item_number{
-    background-color: rgb(196, 228, 255);
+.item_number{
+    background-color: rgb(121, 122, 123);
     width: auto;
     height: fit-content;
     padding: 7px;
     border-radius: 50%;
     color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.item_number_colorChange{
+    background-color: rgb(255, 255, 255);
 }
 .RoadMap_item_container .items .item_content{
     width: 25rem;

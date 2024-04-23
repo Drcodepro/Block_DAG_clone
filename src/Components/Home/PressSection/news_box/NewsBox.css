@@ -1,0 +1,25 @@
+
+
+.News_box_container{
+ display: flex;
+ background-color: rgb(38, 39, 41);
+ padding: 1rem;
+ padding-left: 2rem;
+ padding-right: 2rem;
+width: 12rem;
+height: 6rem;
+border-radius: 1rem;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+}
+
+.News_box_container img{
+    width: 2rem;
+    height:2rem;
+}
+
+.News_box_container:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s linear;
+}
