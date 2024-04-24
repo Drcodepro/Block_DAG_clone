@@ -67,8 +67,6 @@ animation-direction: alternate;
 
 
 
-
-
 @media (max-width: 450px){
     .Press_Section .Press_Section_heading{
         font-size: 1.5rem;
@@ -91,7 +89,7 @@ animation-direction: alternate;
        left: 1rem;
         }
         100%{
-          left:-266rem;
+          left:-235rem;
         }
     }
 }

@@ -47,6 +47,23 @@
         cursor: pointer;
     }
 }
+.otherContent .clickMe_text{
+    color:#ffffff;
+     font-Weight:900;
+     animation-name: clickMe_anim;
+     animation-duration: 1.5s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: linear;
+}
+@keyframes clickMe_anim {
+    0%{
+        color:#ffffff;  
+    }
+    100%{
+        color: rgb(255, 37, 37);
+    }
+}
 
 .otherContent .arrow_button img{
     width: 2.3rem;

@@ -66,6 +66,7 @@ margin-top: 2rem;
     display: grid;
     align-items: center;
     cursor: pointer;
+    box-shadow: 0 0 50px 10px rgb(0, 54, 119);
 }
 
 @media (max-width: 450px){

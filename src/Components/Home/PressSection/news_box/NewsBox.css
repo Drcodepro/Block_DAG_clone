@@ -23,3 +23,11 @@ gap: 0.5rem;
     transform: scale(1.2);
     transition: transform 0.2s linear;
 }
+
+@media (max-width: 450px){
+    .News_box_container{
+        width: 10rem;
+        height: 4rem;
+    }
+    
+}

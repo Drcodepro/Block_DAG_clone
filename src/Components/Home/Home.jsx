@@ -8,6 +8,7 @@ import RoadMap from "./RoadMap_Section/RoadMap";
 import Tokenomics from "./Tokenomic_Section/Tokenomics";
 import Press from "./PressSection/Press";
 import FAQ from "./FAQ_Section/FAQ";
+import HomeFooter from "./Home_Footer/HomeFooter";
 
 export default function Home(){
     return (<div className="Home_container">
@@ -19,5 +20,6 @@ export default function Home(){
     <Tokenomics/>
     <Press/>
     <FAQ/>
+    <HomeFooter/>
     </div>)
 }
