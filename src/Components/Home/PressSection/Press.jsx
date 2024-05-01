@@ -4,20 +4,8 @@ import "./Press.css";
 import NewsBox from "./news_box/NewsBox";
 
 
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
-// import required modules
-import { Autoplay } from 'swiper/modules';
-
-
-
 export default function Press(){
-    
+
     return(<div className="Press_Section">
         <h1 className="Press_Section_heading">PRESS</h1>
         <div className="press_info">
@@ -54,45 +42,3 @@ export default function Press(){
 
     </div>)
 }
-
-
-
-
-
-
-
-{/* <Swiper
-slidesPerView={5}
-spaceBetween={10}
-centeredSlides={true}
-autoplay={{
-  delay:1000,
-  disableOnInteraction: false,
-}}
-modules={[ Autoplay]}
-className="mySwiper"
->
-
-
-<SwiperSlide className="first_slide">
-<NewsBox title="NewsBTC" sorce="./Press_images/image4.png"/>
-</SwiperSlide>
-
-<SwiperSlide className="first_slide">
-<NewsBox title="NewsBTC" sorce="./Press_images/image4.png"/>
-</SwiperSlide>
-
-<SwiperSlide className="first_slide">
-<NewsBox title="NewsBTC" sorce="./Press_images/image4.png"/>
-</SwiperSlide>
-
-<SwiperSlide className="first_slide">
-<NewsBox title="NewsBTC" sorce="./Press_images/image4.png"/>
-</SwiperSlide>
-
-<SwiperSlide className="first_slide">
-<NewsBox title="NewsBTC" sorce="./Press_images/image4.png"/>
-</SwiperSlide>
-
-
-</Swiper> */}

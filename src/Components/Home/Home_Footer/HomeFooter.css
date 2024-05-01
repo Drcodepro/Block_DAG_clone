@@ -1,10 +1,10 @@
 
 .Home_footer_section{
     display: flex;
+    height: fit-content;
     flex-direction: column;
     width: 100vw;
     border-top: solid 1px rgb(59, 59, 59);
-
 }
 .Home_footer_section .footer_mainContent{
     display: flex;

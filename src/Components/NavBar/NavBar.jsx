@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import Button from "../Buttons/Button";
+import { Link, NavLink} from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -17,8 +18,7 @@ export default function NavBar() {
         <li>CALCULATOR</li>
         <li>MECHANICS</li>
       </ul>
-      <a href="https://purchase1.blockdag.network/"><Button value="Buy"/></a>
-      
+      <NavLink to="Buy_Now"><Button value="Buy"/></NavLink>
     </div>
   );
 }
