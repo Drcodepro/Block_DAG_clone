@@ -12,6 +12,7 @@ setisnavtoggle(!isnavtoggle)
   return (
     <div className="charge_page_container">
       <nav>
+      
         <i class={isnavtoggle?"fa-solid fa-xmark" : "fa-solid fa-bars"} onClick={handleNavToggle}/>
         <h1>168.0341</h1>
         <h1 className="logo_inside_mobile_container">
