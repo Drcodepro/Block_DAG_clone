@@ -287,7 +287,13 @@ height: fit-content;
     &:hover{
         cursor: pointer;
     }
+   
 }
+
+.toggledNav_container ul .NavLinkStyle {
+    text-decoration: none; 
+    color: white;
+  }
 
 .toggledNav_container ul li::before{
     content: "";

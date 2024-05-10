@@ -3,6 +3,7 @@ import './Tokenomics.css'
 import Box from "../../Box/Box";
 import Button from "../../Buttons/Button";
 import { useEffect, useRef } from 'react';
+import { NavLink } from "react-router-dom";
 
 export default function Tokenomics() {
 const graphImage = useRef();
@@ -53,7 +54,7 @@ return () => {
             </div>
         </div>
         <div className="mobile_page_buttons">
-            <Button value="Learn More" />
+        <NavLink to="Learn_Now"><Button value="Learn More" /></NavLink>
             <Button value="DAGpaper v2" trans ="trans"/>
         </div>
 

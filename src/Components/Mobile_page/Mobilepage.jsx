@@ -10,7 +10,7 @@ export default function Mobile_Page(){
     <p className="mobile_page_para">Join the BlockDAG presale, engage with the project, and see your contribution grow to new heights.</p>
     <div className="mobile_page_buttons">
        <NavLink to="Buy_Now"><Button value="join Presale" /></NavLink> 
-       <a href="https://purchase1.blockdag.network/?_gl=1*1hn41nq*_ga*MzM2ODMyNDkuMTcxMjcyNzEzNA..*_ga_CFNJ2D5XX8*MTcxMzQxOTYwOC4yOS4xLjE3MTM0MjAwMTQuMC4wLjA."><Button value="How to Buy" trans ="trans"/></a>
+       <NavLink to="Buy_Now"> <Button value="How to Buy" trans ="trans"/></NavLink> 
     </div>
     <Mobile/>
     </div>)

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import "./ChargePage.css";
+import { NavLink } from "react-router-dom";
 
 export default function ChargePage(props) {
   const [isnavtoggle,setisnavtoggle] = useState(false);
@@ -27,7 +28,7 @@ setisnavtoggle(!isnavtoggle)
           <ul>
             <li onClick={()=>props.mobileHomeShow()}><i class="fa-solid fa-house fa-sm"/>Home</li>
             <li><i class="fa-solid fa-rocket fa-sm"/>share and Boost</li>
-            <li><i class="fa-solid fa-cart-shopping fa-sm"/>Buy DAG</li>
+            <NavLink to="Buy_Now" className="NavLinkStyle" ><li><i class="fa-solid fa-cart-shopping fa-sm"/>Buy DAG</li></NavLink>
             <li><i class="fa-solid fa-circle-question fa-sm"/>FAQs</li>
           </ul>
         </div>

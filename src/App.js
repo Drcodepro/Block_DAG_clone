@@ -3,17 +3,22 @@ import BuyNowPage from './Components/BuyNow_Page/BuyNowPage';
 import Home from './Components/Home/Home';
 import {RouterProvider,createBrowserRouter } from "react-router-dom";
 import Layout from './Layout/Layout';
+import LearnNowPage from './Components/LearnNow_Page/LearnNow_Page';
+
 
 const router = createBrowserRouter([
   {path:"/",
   element:<Layout/>,
   children:[
     {path:"",
-    element:<Home/>,
-  },
+      element:<Home/>,
+    },
     {path:"Buy_Now",
-    element:<BuyNowPage/>
-  },
+      element:<BuyNowPage/>
+    },
+    {path:"Learn_Now",
+      element:<LearnNowPage/>
+    },
   ]
 }
 ])
